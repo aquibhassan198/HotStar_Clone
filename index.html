@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Disney+ Clone</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo.png" class="brand-logo" alt="">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">Premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">Subscribe</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta, quasi in dignissimos saepe, alias nobis magnam vitae sunt voluptas eum necessitatibus delectus dicta qui rem debitis laboriosam.</p>
+                </div>
+                <img src="images/slider 1.PNG" alt="">
+            </div> -->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="images/disney.PNG" class="video-card-image" alt="">
+            <video src="videos/disney.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/pixar.PNG" class="video-card-image" alt="">
+            <video src="videos/pixar.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" class="video-card-image" alt="">
+            <video src="videos/marvel.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" class="video-card-image" alt="">
+            <video src="videos/star-war.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" class="video-card-image" alt="">
+            <video src="videos/geographic.mp4" mute loop class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">Raiting: 4.8.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images-cdn.ubuy.co.in/6350cf6d9d32ef20fc5dc60c-0no-way-home-poster-spider-man-2021.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Spiderman</h2>
+                    <h6 class="des">Raiting:- 4.5.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81o500+mo2L._AC_UF1000,1000_QL80_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Narnia:The Lion & Witch</h2>
+                    <h6 class="des">Raiting:- 4.4.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/originals/ba/9b/25/ba9b254a9a7d4377e370f48f98978b22.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">It</h2>
+                    <h6 class="des">Raiting:-4.9.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">Raiting:- 4.4.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images-cdn.ubuy.co.in/633feb99b0c4240a6e30e463-poster-stop-online-avengers-endgame.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Avengers:
+                        EndGame</h2>
+                    <h6 class="des">Raiting:-4.9</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/ant-man-andthewasp-poster-en_72ef8798.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Ant-Man and the Wasp: Quantumania</h2>
+                    <h6 class="des">Raiting:-7.3</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/51r9JIcAs0L._AC_UF1000,1000_QL80_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Lord of the Rings</h2>
+                    <h6 class="des">Raiting:-7.3</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA@@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Insidious</h2>
+                    <h6 class="des">Raiting:-5.3</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Ant-Man and the Wasp: Quantumania</h2>
+                    <h6 class="des">Raiting:-2.3</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/517RVanrY5L._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Captain Marvel</h2>
+                    <h6 class="des">Raiting:-2.3</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 4.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Avengers</h2>
+                    <h6 class="des">Raiting:- 4.0</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 5.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Thor: Ragnarok</h2>
+                    <h6 class="des">Raiting:- 4.7</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://lh3.googleusercontent.com/proxy/I7xzjYTnz63RJS3MxA1VRoLk-hsnJxrrTWp6AB420P4eqRvx9ml2pO_z9hoGX7sIA2ji8PPbLHzizsoqSafpfjgqBfZaZthDImKkUw" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Life Of Pi</h2>
+                    <h6 class="des">Raitings:- 4.2</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71ovk7YYpaL._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Doctor Strange in the Multiverse of Madness </h2>
+                    <h6 class="des">Raitings:- 4.2</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/818tLZ4J13S._AC_UF1000,1000_QL80_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Conguring</h2>
+                    <h6 class="des">Raitings:- 4.2</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjkyMTE1OTYwNF5BMl5BanBnXkFtZTcwMDIxODYzMw@@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Star Dust</h2>
+                    <h6 class="des">Raitings:- 3.2</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/1200x/63/9a/a0/639aa09aecdba8a5f7a4b9c2dfc61cd9.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">X-Men</h2>
+                    <h6 class="des">Raitings:- 4.1</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pirates of the Caribbean</h2>
+                    <h6 class="des">Raitings:- 4.5</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Popular Shows -->
+
+    <h1 class="title">Popular Shows</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://images.justwatch.com/poster/248940830/s718/anupamaa.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Anupamaa</h2>
+                    <h6 class="des">After a gruelling separation from Anuj, strong-willed Anupama moves to America</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTQyZThkNTQtZjVmYy00MGJjLTkzZWMtMGY1ZThjYjQwODA3XkEyXkFqcGdeQXVyMTUwNjkzODgz._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Yeh Rishta Kya Kehlata Hai</h2>
+                    <h6 class="des">It is an Indian Hindi-language romantic family drama television series </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://media.themoviedb.org/t/p/w500/u3NVGYCpkAgBArXogLuHPfpSNwG.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Ghum Hai Kisikey Pyaar Mein</h2>
+                    <h6 class="des">Sai Joshi, a fearless girl who aspires to become a doctor, marries an IPS officer</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYzRlNmQ1ZjUtYmQ3MS00YTMxLWFkZjgtM2FkNjk3ZTA4NTU1XkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Imlie</h2>
+                    <h6 class="des">Introduction to the life of village-girl Imlie, Imlie crosses paths with Aditya, Aditya and Imlie get forcefully married,</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNDBmYjg0ZjctMjU1Yy00ZjIwLWE4NjgtYmNlZDA3MzYzZmY1XkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pandya Store</h2>
+                    <h6 class="des">Pandya Store is an Indian Hindi-language television family drama series that premiered on 25 January 2021 on Star Plus.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTJiMzdmMTgtZDQyMC00OWIzLTkwZTUtZGY4OTJmMWMzMmUyXkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Yeh Hai Chahatein</h2>
+                    <h6 class="des">A passionate love story between a famous rockstar, Rudraksh Khurana and a gynaecologist, Dr Preesha Srinivasan </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjNhNmQ5YzEtMmUwOS00MDA2LWFlM2UtZmMzMDhkOWEyZWJhXkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Udne Ki Aasha</h2>
+                    <h6 class="des">The innocence on the face of Sayali and a middle class boy careless attitude of Sachin is accurately been shown.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZGYzMTQ1MDQtYzgzZS00OTM4LTkxMmUtMDk5NzMzODNlODA1XkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Teri Meri Doriyaann </h2>
+                    <h6 class="des">Teri Meri Doriyaann is an Indian Hindi-language television drama series that premiered on 4 January 2023 on Star Plus </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://media.themoviedb.org/t/p/w500/mqHWj47XVom6z8pgbSQDrgQCEah.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pratigya </h2>
+                    <h6 class="des">Mann Kee Awaaz Pratigya is an Indian television series which aired on STAR Plus. The series premiered on 7 December 2009 and was ended on 27 October 2012. </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVYhT239O7IMSi_lmoBdGq3UvYhswpWKZnXLuFK2sIQ&s" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Iss Pyar ko kya Naam doon?</h2>
+                    <h6 class="des">It is an Indian Hindi-language romantic drama television series that aired on Star Plus from 6 June 2011 to 30 November 2012</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMWI4NDE0NTQtZjIzZS00Y2IxLThiNGEtMWIzMzkxODlhZDk1XkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Saathiya</h2>
+                    <h6 class="des">The series filmed the Modi family, exploring morals and values of a typical Gujarati joint family. Initially, it focused on cousins Gopi and Rashi </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNjU0ZDg5YWItNTgxYy00ZTY0LWE3NzUtOTdhYmFhMWIwNGE5XkEyXkFqcGdeQXVyOTgzNTI5NzE@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Suhani Si Ek Ladki</h2>
+                    <h6 class="des">The series is about the romantic relationship between Yuvraj And Suhani. Suhani Si Ek Ladki. Genre, Soap opera. Created by, Suzana Ghai. </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNTVjOGMzYTEtM2QzNC00NjA4LWI0OGQtNjZmNTYxMmU5NzU0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Diya Aur Baati Hum</h2>
+                    <h6 class="des">Set on the backdrop of Pushkar, Rajasthan, Diya Aur Baati Hum focused on breaking the stereotypical image of women in rural India</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F2gqKJFIaKrRwmSoNxGrKua5xiub.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sapna Babula Ka..Bidaai</h2>
+                    <h6 class="des">It tells the story of a father and his two daughters and explores the social impacts of skin colour.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhGiLKiuA5kLhtz1-pDyfvomZFDQyplrt2bau13YlqQ&s" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Jhanak</h2>
+                    <h6 class="des">Jhanak narrates the story of a young woman who grows up in poverty and aspires to become a dancer.Jhanak decides to overcome all obstacles in order to attain her aspirations</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYmU1N2RkNjctZTBlNC00ZjQzLWE5NzAtYmIxMDQ0ZWQ1MzZhXkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Yehh Jadu Hai Jinn Ka</h2>
+                    <h6 class="des">Aman Khan and Roshni Choudhary are poles apart, different paths but one destination. Their lives are connected in the most extraordinary way, through fate and magic.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://media.themoviedb.org/t/p/w500/wPdryS0QZ38SeXvjrRmbBbkxlYE.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Nazar</h2>
+                    <h6 class="des">An evil Daayan, who worship the mother goddesses Kali and Durga. But as a devil, she was cursed by gods and captured into the human world.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/2e/a1/65/2ea1654ff680c4ac4e8b48c51e3ad953.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Ishqbaaz</h2>
+                    <h6 class="des">This story is about the Oberoi brothers', Shivaay, Omkara and Rudra, friendship and romances. Shivaay crosses paths with the self righteous Annika..</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNzIxMWQwNzYtMGZmYS00MGIxLWE2ZGItYTc0MjQ5ODdhOTMyXkEyXkFqcGdeQXVyNzM4MjU3NzY@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mere Angne Mein</h2>
+                    <h6 class="des">Mere Angne Mein showcases the lives of the Srivastavs, a middle-class family in Mughalsarai, Uttar Pradesh, India.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- New Releases -->
+    <h1 class="title">To Rated IMBD</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZWFiMjVlYTMtMzlhYy00MDcxLWFlNmEtMGJkNmRhNjE5N2ViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Shiddat</h2>
+                    <h6 class="des">A passionate love story involving two couples which highlights the contrast between a regular, mature yet egoistic husband and a unique, happy go lucky</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zUK61TxsASaWTWXMkec8ZZTJO2jK6B-ltpiWjeLIoQ&s" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sita Ramam</h2>
+                    <h6 class="des">Set in 1964, it tells the story of Lieutenant Ram, an orphaned army officer serving at the Kashmir border, gets anonymous love letters from Sita Mahalakshmi,</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+                 <!-- hhhh -->
+
+
+            <div class="card">
+                <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202211/Raid_1669364298.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Raid</h2>
+                    <h6 class="des">The synopsis is a new story based on the longest IT Raid in 1981 at Lucknow.It is about a fearless income tax officer Amay Patnaik who decides to take out all black money hidden in the house of tauji,the powerful man in Lucknow.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.justwatch.com/poster/310510806/s276/total-dhamaal" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Total Dhamaal</h2>
+                    <h6 class="des">Total Dhamaal is the third instalment in the Dhamaal franchise. A hidden booty of 50 crore leads to a mad chase amongst a bunch of greedy and eccentric characters. </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNzk1ZjI5ZDktODFmZi00OWI1LWJlNzctZDI4OWJjMjUyZTAzXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Dishoom</h2>
+                    <h6 class="des">The film revolves around two cops tasked with rescuing a kidnapped Indian cricketer from a cricket bookie. Dishoom was released theatrically worldwide on 29 July 2016</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://m.photos.timesofindia.com/thumb.cms?msid=80636066&width=500&resizemode=4" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mission Mangal</h2>
+                    <h6 class="des">After the failed launch of GSLV-F06 on 25 December 2010, due to a small mistake by Project Director Tara Shinde,Rakesh Dhawan,a fellow scientist working with her, takes the blame for her.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://content1.jdmagicbox.com/comp/jd_social/news/2018aug09/image-244276-9tflpiw6ep.jpg?fit=around|210:308&crop=210:308;*,*" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kabbil</h2>
+                    <h6 class="des">The film follows a blind dubbing artist who becomes disillusioned when his wife faces injustice and dies.He becomes a vigilante and decides to seek revenge against those responsible for his wife's death. </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGI1MTI1YTQtY2QwYi00YzUzLTg3NWYtNzExZDlhOTZmZWU0XkEyXkFqcGdeQXVyMDkwNTkwNg@@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pink</h2>
+                    <h6 class="des">'Pink', is a story of three independent girls Minal (Taapsee Pannu), Falak (Kirti Kulhari) and Andrea (Andrea Tariang) who meets Rajveer (Angad Bedi) and his friends at a rock show. </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTQyNWVlM2YtZjk1Yi00MDk3LTllNGItZjA4YTQ0NGM1NTBjXkEyXkFqcGdeQXVyMzk1NTQ5NjY@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Past</h2>
+                    <h6 class="des">The movie chronicles the life of Simran, a young and upcoming novelist, who, one day, receives a call from Yuvraj, an owner of a publishing house. He asks Simran to write a book on a plot idea</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTQzODMxNDU3MF5BMl5BanBnXkFtZTgwMDAzNjMxMjE@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The villan</h2>
+                    <h6 class="des">When a girl with a bucket list is on the threshold of fulfilling her last wish - of saving the life of a man, ergo, a villain, and turning him into a hero, a vicious villain's psychotic attempts at becoming a hero to the one he loves</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BZmM4YWNjODItZTliOS00M2Y2LTk5ZjgtMDVhMDBiMTlkYTNjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Bala</h2>
+                    <h6 class="des">The narrator describes how society, particularly in the matrimonial process, values beauty and fair-skin over other accomplishments. Years later, Bala is a balding late-twenties fairness cream salesman and late-night nightclub comic.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNjZlMDdmN2YtYThmZi00NGQzLTk0ZTQtNTUyZDFmODExOGNiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Badhaai Ho</h2>
+                    <h6 class="des">The film tells the story of a middle-aged couple who get pregnant, much to the disappointment of their sons. Based on a script written by Shantanu Srivastava and Akshat Ghildial and a story conceived by Jyoti Kapoor.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYjMzZGU5MGUtMjRmMy00MTRkLWE1OTktNDgyNzUyNWMxM2MzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Hate Story 3 </h2>
+                    <h6 class="des">The movie begins with rich businessman Aditya Dewan and his wife Siya inaugurating a hospital in memory of his elder brother, Vikram Dewan. He shares a touching story of Vikram donating half of his liver to his friend Karan.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://play-lh.googleusercontent.com/oRI4wmSL8CVmh7MyQlpwY9GYiD-XKZHolNTOuIDkiuSG7Fzd6LSMeYGFkN4dNm3drDkO" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kabhi Khushi Kabhie Gham</h2>
+                    <h6 class="des">After marrying a poor woman, rich Rahul is disowned by his father and moves to London to build a new life produced by Yash Johar under his banner Dharma Productions.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNGNhNWMwNTgtZmNlOS00OGM3LWIxYzItOWQwZDJjMzQ3MzRlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kuch Kuch Hota Hai</h2>
+                    <h6 class="des">During their college years, Anjali was in love with her best-friend Rahul, but he had eyes only for Tina. Years later, Rahul and the now-deceased Tina's eight-year-old daughter attempts..</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71YmncPuUpL.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Fanaa </h2>
+                    <h6 class="des">The film is about Zooni, a blind Kashmiri woman, who falls in love with her tour guide Rehan, a terrorist in disguise. Fanaa was one of the most expensive Bollywood films at its time of release. </h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Veer-Zaara.jpg/220px-Veer-Zaara.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Veer-Zaara</h2>
+                    <h6 class="des">Zaara, a carefree, sprightly girl has come to India to fulfill her surrogate mother's dying wish. She meets with a bus accident leaving her stranded in a foreign land.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://movieassetsdigital.sgp1.cdn.digitaloceanspaces.com/original/313957b77ef1ccc92a74859b4b5d4c9de6bf9f5a" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Yaariyan</h2>
+                    <h6 class="des">A college student must win an inter college competition to save his college from being demolished by property builders. A college student must win an inter college competition.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://movieassetsdigital.sgp1.cdn.digitaloceanspaces.com/original/59c8caceb5dcf4d84f1c74b8650d56aed3d8499e" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Bajrangi Bhaijaan</h2>
+                    <h6 class="des">Shahida boards a freight train, reaching Kurukshetra in the Indian state of Haryana. Once there, she meets Pawan Kumar Chaturvedi also known as Bajrangi.</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="https://static.toiimg.com/thumb/msid-48914332,imgsize-695048,width-400,resizemode-4/48914332.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Talvaar</h2>
+                    <h6 class="des">Starring Irrfan Khan, Konkona Sen Sharma and Neeraj Kabi, the film follows the investigation of a case from three different perspectives in which her parents are either guilty or innocent..</h6>
+                    <button class="watchlist-btn">Add To Watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- popular language -->
+    <h1 class="title">Popular Languages</h1>
+    <div class="movies-list">
+        <button style="margin-top: -30px;" class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button style="margin-top: -30px;" class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div style="position: relative;width: 92%; margin: auto;height: 10vw; display: flex; margin-bottom: 20px;justify-content: space-between;margin-left:-2px;padding-left: 60px;"
+            class="card-container">
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6661/1526661-a-00b818b5bc0e"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6660/1526660-a-afdd1ecfd8ae"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6682/1526682-a-fd4e220ba563"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6685/1526685-a-5f5995a53f61"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6672/1526672-a-eafe6913c6c8"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6659/1526659-a-7271cf19114e"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6674/1526674-a-fdd5233a7699"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/8124/1714043448124-a"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/8137/1498137-a-86c0b069edb0"
+                    alt="" class="card-img">
+                    <div class="card-body">
+                    </div>
+            </div>
+
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6668/1526668-a-ed367d61302a"
+                alt="" class="card-img">
+                <div class="card-body">
+                </div>
+        </div>
+
+        <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/6670/1526670-a-ec8fb58a5fb8"
+                alt="" class="card-img">
+                <div class="card-body">
+                </div>
+        </div>
+        
+        </div>
+    </div>
+
+
+    <!-- Popular Gener -->
+    <h1 class="title">Popular Genres</h1>
+    <div class="movies-list">
+        <button style="margin-top: -30px;" class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button style="margin-top: -30px;" class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div style="position: relative;width: 92%; margin: auto;height: 10vw; display: flex; margin-bottom: 20px;justify-content: space-between;margin-left:-10px;padding-left: 60px;"
+            class="card-container">
+    
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5262/1535262-a-fbabfaf1176e"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+                class="card">
+                <img style=" width: 100%;height: 100%;object-fit: cover;"
+                    src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5285/1535285-a-88035ca1ae69"
+                    alt="" class="card-img">
+                <div class="card-body">
+                </div>
+            </div>
+
+            <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5284/1535284-a-656c6b45a905"
+                alt="" class="card-img">
+            <div class="card-body">
+            </div>
+        </div>
+
+
+        <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5264/1535264-a-9e7871687c76"
+                alt="" class="card-img">
+            <div class="card-body">
+            </div>
+        </div>
+
+
+        <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5292/1535292-a-5739f9c84b63"
+                alt="" class="card-img">
+            <div class="card-body">
+            </div>
+        </div>
+
+        <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5267/1535267-a-3cae422b372e"
+                alt="" class="card-img">
+            <div class="card-body">
+            </div>
+        </div>
+
+        <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+            class="card">
+            <img style=" width: 100%;height: 100%;object-fit: cover;"
+                src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5288/1535288-a-690bac400aa1"
+                alt="" class="card-img">
+            <div class="card-body">
+            </div>
+        </div>
+
+        <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+        class="card">
+        <img style=" width: 100%;height: 100%;object-fit: cover;"
+            src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5281/1535281-a-b56dc39e5bb7"
+            alt="" class="card-img">
+        <div class="card-body">
+        </div>
+    </div>
+
+    <div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5302/1535302-a-e90748391e0d"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5250/1535250-a-b320bf06458d"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5274/1535274-a-5532b8285ed1"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5248/1535248-a-35ccd1ea9ec0"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5295/1535295-a-6a74b60243b1"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5293/1535293-a-0e87557679aa"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/8791/1568791-a-e50a43088a1a"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5245/1535245-a-90839834c474"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5286/1535286-a-f282f00643b5"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5246/1535246-a-27373cc1a222"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/9192/1429192-a-477d9d92e085"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5278/1535278-a-e9dbbe66922b"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5298/1535298-a-7d27752d8350"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5301/1535301-a-9bb68bcd147c"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/8373/1608373-a-251c2eee021b"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5299/1535299-a-e6296badeb14"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5282/1535282-a-ae97739962dc"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5280/1535280-a-a1d64ccd7457"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5280/1535280-a-a1d64ccd7457"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5259/1535259-a-6e0b7daffb29"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+<div style="position: relative;min-width: calc(100%/5 - 10px);width: calc(100%/5 - 10px);height: 100%;border-radius: 5px;overflow: hidden; background: #030b17;"
+    class="card">
+    <img style=" width: 100%;height: 100%;object-fit: cover;"
+        src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/8364/1538364-a-a3b574f36633"
+        alt="" class="card-img">
+    <div class="card-body">
+    </div>
+</div>
+
+        </div>
+    </div>
+
+   <div id="p">
+    <p id="pa">Company</p>
+    <p id="pa">View Website</p>
+    <p id="pa">Need Help</p>
+    <p id="pa">Contact With Us</p>
+
+
+    <div id="pr">
+        <p id="a">About Us</p>
+        <p id="e">✔  English</p>
+        <p id="v">View Help Center <br>Share Feedback</p>
+        <img id="fb" src="https://i.pinimg.com/474x/16/b8/22/16b82240a640db6fb6c18297fc1dcfd3.jpg">
+        <img id="t" src="https://e7.pngegg.com/pngimages/708/311/png-clipart-twitter-twitter-thumbnail.png">
+       </div>
+   </div>
+
+
+   <div id="s">
+     <p id="star">@ 2024 STAR.All Rights Reserved </p>
+     <p id="st">Terms Of Use  Privacy Policy  FAQ</p>
+    
+     <img id=im style= " width: 100px; margin-top: -2500px; margin-left: 1100px;  " src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346101/google-playstore">
+    <img id=im style=" margin-left: 20px;width: 100px; " src="https://img10.hotstar.com/image/upload/f_auto,q_90,w_256/v1661346071/ios-appstore">
+   
+</div>
+   
+   
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
